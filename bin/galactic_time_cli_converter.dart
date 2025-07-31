@@ -1,7 +1,7 @@
 import 'package:args/args.dart';
 import 'package:galactic_time_cli_converter/galactic_time_cli.dart';
 
-const String version = '0.0.1';
+const String version = '1.0.0';
 
 ArgParser buildParser() {
   return ArgParser()

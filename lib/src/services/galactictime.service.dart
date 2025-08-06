@@ -58,7 +58,7 @@ class GalacticTime {
     return '$years.$months.$weeks$days $hours.$minutes.$seconds';
   }
 
-  // Optional: Add method to explain each component
+  //returns map of each component of a passed galacticTime String
   static Map<String, int> parseGalacticTime(String galacticTimeStr) {
     double totalTime = double.parse(galacticTimeStr);
 

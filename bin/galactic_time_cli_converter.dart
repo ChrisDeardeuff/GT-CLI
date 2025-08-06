@@ -94,7 +94,7 @@ void main(List<String> arguments) {
         if (direction == 'to-galactic') {
           print('Error: Invalid datetime format. Use YYYY-MM-DD HH:mm:ss');
         } else {
-          print('Error: Invalid galactic time format. Use numerical value');
+          print('Error: Invalid galactic time format. Use yy.m.dd.h.mm.ss');
         }
         printUsage(argParser);
       }

@@ -1,4 +1,4 @@
-A sample command-line application providing basic argument parsing with an entrypoint in `bin/`.
+A simple command-line application providing basic argument parsing with an entrypoint in `bin/`. Used to get Galactic Time, and convert to and from Galactic Time.
 
 ## Usage
 Usage: dart galactic_time_cli_converter.dart <flags> [time]
